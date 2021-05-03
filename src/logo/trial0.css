@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>
+exploring css display properties
+</title>
+<style type="text/css">
+block{
+width:120px;
+height:120px;
+border:1px solid;
+background:#ccc;
+margin:20px;
+display:inline;
+}
+container{
+  width:100px;
+  height:100px;
+  border:2px solid;
+  text align:center;
+  display:inline-block;  
+}
+</style>
+</head>
+<body>
+<div>
+   demo of css display property
+</body>
+<div class="block">
+block1
+</div>
+<div class="block">
+block2
+</div>
+<spanclass="container">content1</span>
+<spanclass="container">content2</span>
+<spanclass="container">content3</span>
+<spanclass="container">content4</span>
+</body>
+</html>
